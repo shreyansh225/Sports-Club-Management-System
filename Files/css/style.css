@@ -1,0 +1,697 @@
+html{
+  font-size: 62.5%;
+  font-family: sans-serif;
+}
+
+div {
+    display: block;
+}
+
+
+.login-page {
+    background: #303641;
+}
+
+body {
+    font-family: "Noto Sans", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 1.428571429;
+    
+    display: block;
+    margin: 0;
+}
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+.login-page .login-header {
+    position: relative;
+    background: #373e4a;
+    padding: 60px 0;
+    transition: all 550ms ease-in-out;
+}
+
+.login-page .login-header.login-caret:after {
+    position: absolute;
+    content: '';
+    left: 50%;
+    bottom: 0;
+    margin-left: -12.5px;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 13px 12.5px 0 12.5px;
+    border-color: #373e4a transparent transparent transparent;
+    bottom: -13px;
+    transition: all 550ms ease-in-out;
+}
+
+.login-page .login-content {
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+    transition: all 550ms ease-in-out;
+}
+
+.login-page .login-content a {
+    color: #949494;
+}
+
+a {
+    text-decoration: none;
+    background: transparent;
+}
+
+img {
+    vertical-align: middle;
+}
+img {
+    border: 0;
+}
+
+.logo img{
+    width: 220px;
+    height: 200px;
+}
+
+.login-page .login-header .description {
+    font-size: 13px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    transition: all 550ms ease-in-out;
+}
+p {
+    margin: 0 0 8.5px;
+    font-size: 12px;
+}
+
+p {
+    display: block;
+}
+
+.login-page .login-progressbar-indicator {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100%;
+    margin-top: 80px;
+    visibility: hidden;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    transform: translateY(100px) scale(0.2);
+    transition: all 550ms ease-in-out;
+}
+
+.login-page .login-progressbar-indicator h3 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.login-page .login-progressbar {
+    height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: all 550ms ease-in-out;
+}
+
+.login-page .login-progressbar div {
+    width: 0%;
+    transition: 700ms all cubic-bezier(0.770, 0.000, 0.175, 1.000);
+}
+
+
+.login-page .login-form {
+    position: relative;
+    padding-top: 60px;
+    transition: all 550ms ease-in-out;
+}
+
+.login-page .login-content {
+    position: relative;
+    width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.login-page .login-form .form-group .input-group {
+    background: #373e4a;
+    border: 1px solid #373e4a;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    transition: all 300ms ease-in-out;
+    background-clip: padding-box;
+    border-radius: 3px;
+}
+.input-group {
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+
+.login-page .login-form .form-group .input-group .input-group-addon {
+    position: relative;
+}
+.login-page .login-form .form-group .input-group .input-group-addon, .login-page .login-form .form-group .input-group .form-control {
+    background: transparent;
+    border: 0;
+}
+.input-group-addon:first-child {
+    border-right: 0;
+}
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.input-group-addon {
+    padding: 6px 12px;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1;
+    color: #555555;
+    text-align: center;
+    background-color: #f3f3f3;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    color: #919191;
+}
+.input-group-addon, .input-group-btn {
+    width: 1%;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+
+.login-page .login-form .form-group .input-group .input-group-addon:after {
+    position: absolute;
+    display: block;
+    content: '';
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background: #454a54;
+    transform: scaleY(.56);
+}
+
+
+
+
+
+
+
+.login-page .login-form .form-group .input-group .form-control {
+    color: #ffffff;
+}
+.login-page .login-form .form-group .input-group .input-group-addon, .login-page .login-form .form-group .input-group .form-control {
+    background: transparent;
+    border: 0;
+}
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child) {
+    
+    border-top-left-radius: 0px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0px;
+    background-clip: padding-box;
+    border-bottom-left-radius: 0;
+}
+.input-group-addon, .input-group-btn, .input-group .form-control {
+    display: table-cell;
+}
+.input-group .form-control {
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: 31px;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    color: #555555;
+    outline:none;
+    vertical-align: middle;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+button, input {
+    line-height: normal;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+
+
+input:not([type]), input[type="email" i], input[type="number" i], input[type="password" i], input[type="tel" i], input[type="url" i], input[type="text" i] {
+    padding: 1px 0px;
+}
+
+input {
+
+    background-color: white;
+    cursor: text;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 13.3333px Arial;
+}
+
+.login-page .login-form .form-group {
+    margin-bottom: 20px;
+    transition: all 550ms ease-in-out;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: #303641;
+    border-color: #303641;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 3px;
+    user-select: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+button, select {
+    text-transform: none;
+}
+
+.login-page .login-bottom-links {
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.login-page .login-bottom-links .link {
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: rgba(255, 255, 255, 0.7);
+    transition: all 550ms ease-in-out;
+}
+.login-page .login-bottom-links a {
+    transition: all 300ms ease-in-out;
+}
+.login-page .login-content a {
+    color: #949494;
+}
+a {
+    color: #373e4a;
+    text-decoration: none;
+}
+a {
+    background: transparent;
+}
+a {
+    color: #373e4a;
+}
+
+.login-page .btn-primary:hover{
+    background:#1F232A;
+}
+
+/*============Admin index.php=======*/
+
+.page-container {
+    position: relative;
+    padding-left: 280px;
+}
+
+.page-container .sidebar-menu {
+    position: absolute;
+    width: 280px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: #303641;
+    color: #aaabae;
+    z-index: 1;
+    min-height: 796px;
+    box-sizing: border-box;
+}
+
+.page-container .sidebar-menu .logo-env {
+    width: 100%;
+    padding: 35px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.page-container.sidebar-collapsed {
+    padding-left: 65px;
+}
+
+.page-container.sidebar-collapsed .sidebar-menu {
+    z-index: 4;
+    width: 65px;
+}
+
+.page-container.sidebar-collapsed .sidebar-menu .logo-env {
+    display: block;
+    padding: 20px;
+}
+
+.page-container .sidebar-menu .logo-env:before, .page-container .sidebar-menu .logo-env:after {
+    content: " ";
+    display: table;
+}
+
+
+.page-container.sidebar-collapsed .sidebar-menu .logo-env > div.logo {
+    overflow: hidden;
+    width: 0;
+}
+
+.page-container .sidebar-menu .logo-env > div {
+    display: block;
+    vertical-align: middle;
+    white-space: nowrap;
+    float: left;
+}
+
+.page-container .sidebar-menu .logo-env > div > a {
+    display: inline-block;
+    color: #aaabae;
+}
+
+.page-container.sidebar-collapsed .sidebar-menu .logo-env > div.sidebar-collapse {
+    display: block;
+    padding: 0;
+    left: 3px;
+}
+.page-container .sidebar-menu .logo-env > div.sidebar-collapse, .page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu {
+    position: relative;
+    float: right;
+}
+
+.page-container .sidebar-menu .logo-env > div.sidebar-collapse a, .page-container .sidebar-menu .logo-env > div.sidebar-mobile-menu a {
+    display: inline-block;
+    border: 1px solid #454a54;
+    text-align: center;
+    padding: 0;
+    line-height: 1;
+    font-size: 20px;
+    font-weight: 300;
+    padding: 5px 2px;
+    background-clip: padding-box;
+    border-radius: 3px;
+    transition: all 200ms ease-in-out;
+}
+
+.page-container .sidebar-menu .logo-env > div > a {
+    display: inline-block;
+    color: #aaabae;
+}
+
+.page-container .sidebar-menu .logo-env .logo img {
+    width: 180px;
+    height: 150px;
+}
+
+.page-container.sidebar-collapsed .sidebar-menu .logo-env .logo img {
+    width: 180px;
+    height: 30px;
+}
+
+.page-container .sidebar-menu .logo-env:after {
+    clear: both;
+}
+.page-container .sidebar-menu .logo-env:before, .page-container .sidebar-menu .logo-env:after {
+    content: " ";
+    display: table;
+}
+.page-container .sidebar-menu .logo-env:after {
+    clear: both;
+}
+.page-container .sidebar-menu .logo-env:before, .page-container .sidebar-menu .logo-env:after {
+    content: " ";
+    display: table;
+}
+
+/*======= Nav header =========*/
+.page-container .sidebar-menu #main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 8.5px;
+}
+
+ul, menu, dir {
+    display: block;
+    list-style-type: disc;
+}
+
+.page-container .sidebar-menu #main-menu li {
+    position: relative;
+    margin: 0;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(69, 74, 84, 0.7);
+}
+
+li {
+    display: list-item;
+}
+
+
+.page-container .sidebar-menu #main-menu li a {
+    position: relative;
+    display: block;
+    padding: 10px 20px;
+    color: #aaabae;
+    z-index: 2;
+    transition: color 250ms ease-in-out, background-color 250ms ease-in-out;
+}
+
+.page-container .sidebar-menu #main-menu li a i {
+    top: 1px;
+}
+.page-container .sidebar-menu #main-menu li i {
+    position: relative;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+i, cite, em, var, address, dfn {
+    font-style: italic;
+}
+
+.page-container .sidebar-menu #main-menu li a span {
+    transition: 350ms opacity ease-in-out;
+}
+
+.page-container .sidebar-menu #main-menu li.has-sub > a:before {
+    position: relative;
+    content: '\e877';
+    content: '\e879';
+    display: inline-block;
+    font-family: 'Entypo';
+    color: #454a54;
+    color: #FFF;
+    float: right;
+    font-size: 15px;
+    margin-left: 13px;
+    top: 0px;
+    transition: all 300ms ease-in-out;
+}
+
+.page-container .sidebar-menu #main-menu li.has-sub.opened > a:before {
+    transform: rotate(90deg);
+}
+
+.page-container .sidebar-menu #main-menu li ul {
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid rgba(69, 74, 84, 0.4);
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+}
+
+ul ul, ol ul, ul ol, ol ol {
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 8.5px;
+}
+
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li > a > span:not(.badge) {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 65px;
+    margin-top: -1px;
+    padding: 12px 10px;
+    background: #303641;
+    border-top: 1px solid #454a54;
+    border-bottom: 1px solid #454a54;
+    width: 250px;
+    visibility: hidden;
+    border-radius: 0px 3px 3px 0px;
+    background-clip: padding-box;
+    border-radius: 0 3px 3px 0;
+    opacity: 0;
+}
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li > a span {
+    transition: none;
+}
+.page-container .sidebar-menu #main-menu li a span {
+    transition: 350ms opacity ease-in-out;
+}
+
+.page-container .sidebar-menu #main-menu li ul.visible {
+    display: block;
+}
+
+.page-container .sidebar-menu #main-menu li ul > li {
+    border-bottom: 1px solid rgba(69, 74, 84, 0.4);
+}
+
+.page-container .sidebar-menu #main-menu li ul > li:last-child {
+    border-bottom: 0;
+}
+
+.page-container .sidebar-menu #main-menu li ul > li > a {
+    background-color: #2b303a;
+    padding-left: 40px;
+}
+
+
+
+
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li.has-sub:hover.has-sub > a,
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li:hover.has-sub > a {
+  cursor: default;
+}
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li.has-sub:hover.has-sub > a > span:not(.badge),
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li:hover.has-sub > a > span:not(.badge) {
+  border-radius: 0px 3px 0px 0px;
+  background-clip: padding-box;
+  border-radius: 0 3px 0 0;
+}
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li.has-sub:hover.has-sub > a:hover,
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li:hover.has-sub > a:hover {
+  color: #aaabae;
+}
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li.has-sub:hover > a > span,
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li:hover > a > span {
+  visibility: visible;
+  opacity: 1;
+}
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li.has-sub:hover a span.badge,
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li:hover a span.badge {
+  display: block;
+}
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li.has-sub:hover > ul,
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li > ul {
+
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: auto;
+    left: 65px;
+    width: 250px;
+    border-radius: 0px 0px 3px 0px;
+    border-radius: 0 0 3px 0;
+    opacity: 0;
+
+}
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li ul {
+
+    border-top-color: #454a54;
+
+}
+.page-container .sidebar-menu #main-menu li ul {
+
+    position: relative;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid rgba(69, 74, 84, 0.4);
+        border-top-color: rgba(69, 74, 84, 0.4);
+    display: none;
+    overflow: hidden;
+    z-index: 1;
+    }
+
+.page-container.sidebar-collapsed .sidebar-menu #main-menu > li > ul li {
+
+    border-bottom: 1px solid #454a54;
+
+}
+.page-container .sidebar-menu #main-menu li ul > li {
+
+    border-bottom: 1px solid rgba(69, 74, 84, 0.4);
+
+}
+.page-container .sidebar-menu #main-menu li {
+
+    position: relative;
+    margin: 0;
+    font-size: 12px;
+    border-bottom: 1px solid rgba(69, 74, 84, 0.7);
+
+}
