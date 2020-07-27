@@ -1,1 +1,13 @@
-Developed an online Sports Club Management system for easy time scheduling and a user-friendly interface that gives real-time information about the member's details, Payment, Time scheduling, Sport availability using HTML, CSS, Bootstrap, PHP and XAMP Server.
+Developed an online Sports Club Management system for easy time scheduling and a user-friendly interface 
+that gives real-time information about the member's details, Payment, Time scheduling, Sport availability 
+using HTML, CSS, Bootstrap, PHP and XAMP Server.
+
+Steps to follow to open the project:
+
+1) clone or download the zip file of this Repository
+2) Download and install XAMPP server on your system
+3) After installation go to this file locatoin on your system ( C:\xampp\htdocs ) 
+4) Paste the zip file and extract inside the htdocs folder
+5) start the XAMPP server 
+6) click start on Apache and MySQL to turn on the localhost
+7) On the browser type (localhost/phpmyadmin) this will display the database for this project
