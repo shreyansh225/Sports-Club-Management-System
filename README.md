@@ -54,7 +54,7 @@ Installation Steps**************************************************************
     Import database (sports_club_db.sql) from downloaded folder
     The sql file(sports_club_db.sql) will now be saved into "C:\xampp\mysql\data"
 
-6. Open Your browser put inside "http://localhost/Project Folder Name/"
+6. Open Your browser put inside "http://localhost/Sports-Club-Management-System/"
 7. Click on the File icon to open the project
 
 Admin Login Details
