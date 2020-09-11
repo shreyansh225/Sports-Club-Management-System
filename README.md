@@ -30,48 +30,48 @@ Front end: HTML, CSS, JavaScript
 </p>
 <br>
 <p>
-HTML: HTML is used to create and save web document. E.g. Notepad/Notepad++
-CSS : (Cascading Style Sheets) Create attractive Layout
-Bootstrap : responsive design mobile freindly site
-JavaScript: it is a programming language, commonly use with web browsers.
-Back end: PHP, MySQL
+HTML: HTML is used to create and save web document. E.g. Notepad/Notepad++<br>
+CSS : (Cascading Style Sheets) Create attractive Layout<br>
+Bootstrap : responsive design mobile freindly site<br>
+JavaScript: it is a programming language, commonly use with web browsers.<br>
+Back end: PHP, MySQL<br>
 </p>
 <br>
 <p>
 PHP: Hypertext Preprocessor (PHP) is a technology that allows software developers to create dynamically generated 
-web pages, in HTML, XML, or other document types, as per client request. PHP is open source software.
+web pages, in HTML, XML, or other document types, as per client request. PHP is open source software.<br>
 MySQL: MySql is a database, widely used for accessing querying, updating, and managing data in databases.
 </p>
 <br>
 <p>
-Server Requirement(any one)
-WAMP Server
-XAMPP Servers(Used for this project)   
-MAMP Server
-LAMP Server
+Server Requirement(any one of below)<br>
+WAMP Server<br>
+XAMPP Servers(Used for this project)   <br>
+MAMP Server<br>
+LAMP Server<br>
 </p>
 <br>
 <p>
 
-<h2>Installation Steps</h2>
+<h2>Installation Steps</h2><br>
 **********************************************************************************
-1. Download zip file and Unzip file on your local server.
-2. Put this file inside "C:\xampp\htdocs\" .
-3. Open xampp control panel 
-4. Click on start for Apache and MySQL
-5. Now For Database Configuration
-    Open in browser = http://localhost/phpmyadmin/
-    Create Database named = sports_club_db
-    Import database (sports_club_db.sql) from downloaded folder
-    The sql file(sports_club_db.sql) will now be saved into "C:\xampp\mysql\data"
+1. Download zip file and Unzip file on your local server.<br>
+2. Put this file inside "C:\xampp\htdocs\" .<br>
+3. Open xampp control panel <br>
+4. Click on start for Apache and MySQL<br>
+5. Now For Database Configuration<br>
+    Open in browser = http://localhost/phpmyadmin/  <br>
+    Create Database named = sports_club_db  <br>
+    Import database (sports_club_db.sql) from downloaded folder  <br>
+    The sql file(sports_club_db.sql) will now be saved into "C:\xampp\mysql\data"  <br>
 
-6. Open Your browser put inside "http://localhost/Sports-Club-Management-System/"
-7. Click on the File icon to open the project
+6. Open Your browser put inside "http://localhost/Sports-Club-Management-System/"  <br>
+7. Click on the File icon to open the project <br>
 
 </p>
 <br>
 <p>
-Admin Login Details
-Login Id: admin1
-Password: admin1
+Admin Login Details<br>
+Login Id: admin1<br>
+Password: admin1<br>
  
