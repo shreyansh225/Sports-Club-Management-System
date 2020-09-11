@@ -54,24 +54,24 @@ LAMP Server<br>
 <p>
 
 <h2>Installation Steps</h2><br>
-**********************************************************************************
+**********************************************************************************<br>
+
 1. Download zip file and Unzip file on your local server.<br>
 2. Put this file inside "C:\xampp\htdocs\" .<br>
 3. Open xampp control panel <br>
 4. Click on start for Apache and MySQL<br>
 5. Now For Database Configuration<br>
-    Open in browser = http://localhost/phpmyadmin/  <br>
-    Create Database named = sports_club_db  <br>
-    Import database (sports_club_db.sql) from downloaded folder  <br>
-    The sql file(sports_club_db.sql) will now be saved into "C:\xampp\mysql\data"  <br>
-
-6. Open Your browser put inside "http://localhost/Sports-Club-Management-System/"  <br>
-7. Click on the File icon to open the project <br>
+6. Open in browser = http://localhost/phpmyadmin/  <br>
+7. Create Database named = sports_club_db  <br>
+8. Import database (sports_club_db.sql) from downloaded folder  <br>
+9. The sql file(sports_club_db.sql) will now be saved into "C:\xampp\mysql\data"  <br>
+10. Open Your browser put inside "http://localhost/Sports-Club-Management-System/"  <br>
+11. Click on the File icon to open the project <br>
 
 </p>
 <br>
 <p>
-Admin Login Details<br>
+*) Admin Login Details<br>
 Login Id: admin1<br>
 Password: admin1<br>
  
