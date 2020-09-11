@@ -43,7 +43,9 @@ XAMPP Servers(Used for this project)
 MAMP Server
 LAMP Server
 
-Installation Steps**********************************************************************************
+
+<h2>Installation Steps</h2>
+**********************************************************************************
 1. Download zip file and Unzip file on your local server.
 2. Put this file inside "C:\xampp\htdocs\" .
 3. Open xampp control panel 
